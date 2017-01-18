@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn import linear_model
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('1 - How to Make a Prediction/challenge_dataset.txt', header = None)
+df = pd.read_csv('challenge_dataset.txt', header = None)
 df.columns = ['x','y']
 x = df[[0]]
 y = df[[1]]
